@@ -1,0 +1,210 @@
+body {
+  margin: 10px 30px 10px 30px;
+  width: 90%;
+  height: 100vh;
+  font-family: Inter (woff2) sans-serif;
+}
+
+.header-title {
+  font-family: SF Pro Display;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.sign-in-section {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sign-in-div {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 25%;
+}
+
+.sigh-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-section input {
+  width: 99%;
+  background-color: rgba(242, 242, 242, 1);
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.input-section p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input i {
+  position: absolute;
+  top: 25%;
+  left: 92%;
+}
+
+/* Keep Me signed in  */
+
+.keep-me-sign-forgot-pass {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.keep-me-sined p {
+  color: rgba(79, 79, 79, 1);
+  /* font-size: 100%; */
+  font-weight: 500;
+}
+
+.keep-me-sign-forgot-pass a {
+  color: rgba(47, 128, 237, 1);
+  font-weight: 500;
+}
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.788);
+  margin: 8px 0px;
+}
+.hr-sect:before,
+.hr-sect:after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.185);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+.btn button {
+  width: 100%;
+  /* background-color: rgba(242, 242, 242, 1); */
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 5px;
+  padding: 2%;
+  text-align: center;
+}
+
+.emai-div button {
+  background-color: rgba(47, 128, 237, 1);
+  color: white;
+}
+
+.facebook-div {
+  margin-top: 5px;
+}
+
+.google-div {
+  background-color: white;
+  border: 1px solid rgba(110, 110, 110, 0.281);
+  border-radius: 5px;
+}
+.btn-google {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-weight: 500;
+}
+.facebook-div {
+  /* border: 1px solid rgba(110, 110, 110, 0.281); */
+  border-radius: 5px;
+}
+.facebook-btn {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(71, 89, 147, 1);
+  font-weight: 500;
+}
+
+.register {
+  margin-top: 10%;
+  align-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .sign-in-div {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 35%;
+    height: 1000%;
+  }
+
+  .emai-div button {
+    margin-top: 0;
+    padding: 0;
+  }
+  .keep-me-sign-forgot-pass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .sign-in-div {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 35%;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  .sign-in-div {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+  }
+
+  .emai-div button {
+    margin-top: 0;
+    padding: 0;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .sign-in-div {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+  }
+}
