@@ -1,0 +1,578 @@
+body {
+  margin: 10px 10px 10px 30px;
+  width: 95%;
+  height: 100vh;
+  font-family: Inter (woff2) sans-serif;
+  background-color: rgba(235, 235, 235, 0.721);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(24, 24, 24, 1);
+}
+.main-sec {
+  margin-top: 5%;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav-bar,
+.account-section,
+.nav-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-options {
+  width: 40%;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 500;
+}
+
+.account-section {
+  width: 5%;
+}
+
+.profile {
+  font-size: 100%;
+  padding: 10%;
+  margin: 5px;
+  border: 1px solid rgba(51, 51, 51, 1);
+  border-radius: 50%;
+  background-color: rgb(231, 229, 93);
+  color: rgba(0, 0, 0, 0.929);
+}
+
+.notifiaction-bell {
+  color: rgba(128, 128, 128, 0.911);
+}
+
+/* covid bar section */
+
+.covid-section {
+  background-color: rgba(252, 239, 202, 1);
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  padding-left: 6%;
+}
+
+.covid-section a {
+  color: rgba(47, 128, 237, 1);
+}
+
+/* footer section */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list-main div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7%;
+}
+.footer-list-main a {
+  color: rgba(79, 79, 79, 1);
+}
+
+.last-footer-div {
+  background-color: rgba(235, 235, 235, 1);
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 2px;
+}
+
+/* Banner section  */
+
+.product-details-image-section {
+  display: flex;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.582);
+  border-radius: 5px;
+}
+.product-details-image-section img {
+  width: 100%;
+}
+
+.product-details-image-div2,
+.product-details-image-div1 {
+  margin: 1%;
+}
+
+.product-details-image-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Product Details section  */
+
+/* product overView */
+
+.product-overView {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  /* background-color: rgba(255, 255, 255, 0.582); */
+  border-radius: 5px;
+}
+.overview {
+  border-bottom: 3px solid rgba(47, 128, 237, 1);
+  width: 25%;
+}
+
+.result-rating {
+  width: 100%;
+  display: flex;
+}
+
+.product-summary {
+  display: flex;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.product-location {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 1%;
+}
+.overview-faciliti-container {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  margin-right: 1%;
+}
+
+.overview-faciliti-container > div {
+  padding: 3%;
+}
+.facilities {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+  /* justify-content: space-between; */
+}
+.overview-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.facilities-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* location details */
+
+.map img {
+  width: 100%;
+}
+
+.loaction-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  color: rgba(47, 128, 237, 1);
+  padding-right: 12px;
+}
+
+/*  Available rooms */
+
+.date-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.date-section-div {
+  width: 100%;
+  background-color: rgba(242, 242, 242, 1);
+  margin: 1%;
+  text-align: center;
+  /* height: auto; */
+  border-radius: 5px;
+}
+
+.date-section-div input {
+  margin: 2%;
+  /* width: 100%; */
+  height: 40px;
+  text-align: center;
+  /* padding: 2%; */
+  /* font-size: 100%; */
+  background-color: rgba(242, 242, 242, 1);
+  font-size: large;
+}
+
+.date-adult {
+  height: 100px;
+}
+.date-section-div button {
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+}
+.date-section-div input {
+  border: none;
+}
+
+.availability-button {
+  background-color: rgba(47, 128, 237, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Human banner  */
+
+.human-banner {
+  display: flex;
+  width: 100%;
+}
+.human-banner div {
+  margin: 1%;
+}
+.human-banner img {
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+}
+
+.banner-human-background {
+  background-image: url(/images/Human-bg.png);
+  /* width: 100%; */
+  /* height: inherit(); */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.human-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  /* position: relative; */
+}
+.human-image {
+  width: 50%;
+  /* position: absolute; */
+  /* right: -100; */
+}
+
+.human-card-summary {
+  /* margin: 5%; */
+}
+
+.banner-color {
+  color: rgba(255, 255, 255, 1);
+}
+.padding-remove {
+  padding: 0%;
+  margin: 0%;
+}
+.Orlando {
+  color: rgba(255, 215, 35, 1);
+}
+
+/* 2nd and 3rd card */
+
+.multiple-beds-main-div,
+.queen-beds-main-div {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.reserve-button-div {
+  width: 100%;
+  height: 40px;
+}
+
+.reserve-button {
+  width: 100%;
+  background-color: rgba(47, 128, 237, 1);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-icon {
+  color: rgba(130, 130, 130, 1);
+  margin: 0% 2%;
+}
+
+/* 
+media queries 
+
+*/
+
+/* for large screen */
+@media screen and (min-width: 1350px) and (max-width: 2480px) {
+  .human-card-1 {
+    width: 100%;
+  }
+  .banner-human-background,
+  .multiple-beds-main-div,
+  .queen-beds-main-div,
+  .product-overView {
+    width: 100%;
+    background-size: cover;
+    height: inherit;
+  }
+  .human-image img {
+    width: 100%;
+    /* align-self: center; */
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1350px) {
+  .banner-human-background {
+    width: 100%;
+    height: inherit;
+    background-size: cover;
+  }
+
+  .human-card-1 {
+    width: 100%;
+  }
+  .human-image img {
+    width: 100%;
+  }
+}
+
+/* for desktops and laps */
+@media screen and (min-device-width: 768px) and (max-width: 1024px) {
+  .footer-container div {
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: baseline; */
+  }
+  .product-overView {
+    display: flex;
+    width: 50%;
+  }
+  .product-summary {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+  }
+
+  .product-details,
+  .product-location {
+    width: 100%;
+  }
+
+  .facilities {
+    width: 100%;
+  }
+  .facilities-list {
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .banner-human-background {
+    width: 100%;
+  }
+  .human-image {
+    width: 100%;
+    align-self: center;
+  }
+
+  .explore {
+    align-self: center;
+    margin-left: 1%;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  html {
+    width: 95%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+  }
+  .human-image img {
+    width: 50%;
+    /* align-self: center; */
+  }
+  .nav-bar,
+  .account-section,
+  .nav-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* Product Details section */
+
+  /* product details section  */
+  .product-details-image-section {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  .product-overView {
+    display: flex;
+    width: 100%;
+  }
+  .product-summary {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .product-details,
+  .product-location {
+    width: 100%;
+  }
+
+  .facilities {
+    width: 100%;
+  }
+  .facilities-list {
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .date-section-div {
+    width: 25%;
+    font-size: medium;
+  }
+
+  .date-section-div input,
+  .date-section-div button,
+  .date-section-div a {
+    width: 100%;
+    font-size: medium;
+  }
+
+  .human-banner {
+    flex-direction: column;
+  }
+
+  .banner-human-background {
+    width: 100%;
+    height: inherit;
+  }
+  .footer-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) {
+  html {
+    width: 95%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+  }
+
+  .nav-bar,
+  .account-section,
+  .nav-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* product details section  */
+  .product-details-image-section {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  .product-overView {
+    display: flex;
+    width: 100%;
+  }
+  .product-summary {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .product-details,
+  .product-location {
+    width: 100%;
+  }
+
+  .facilities {
+    width: 100%;
+  }
+  .facilities-list {
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .date-section-div {
+    width: 25%;
+    font-size: smaller;
+  }
+
+  .date-section-div input,
+  .date-section-div button,
+  .date-section-div a {
+    width: 100%;
+    font-size: smaller;
+  }
+
+  .human-banner {
+    flex-direction: column;
+  }
+
+  .banner-human-background {
+    width: 100%;
+    height: inherit;
+  }
+  .footer-container {
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+}
